@@ -1,0 +1,35 @@
+name: your_project_name
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/fighter_jet.png
+    - assets/images/enemy1.png
+    - assets/images/enemy2.png
+    - assets/images/enemy3.png
+    - assets/images/goblin_arrow1.png
+    - assets/images/goblin_arrow2.png
+    - assets/images/goblin_arrow.png
+    - assets/images/monster1.png
+    - assets/images/monster2.png
+    - assets/images/monster3.png
+    - assets/images/bullet.png
